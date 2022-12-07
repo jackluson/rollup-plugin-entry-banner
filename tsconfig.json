@@ -15,7 +15,7 @@
     "baseUrl": ".",
     "rootDir": "src",
     "paths": {
-      "@utils/*": ["./src/utils/*"]
+      // "@utils/*": ["./src/utils/*"]
     }
   },
   "include": ["src/**/*", "types/**/*"],

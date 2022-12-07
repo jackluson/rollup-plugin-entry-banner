@@ -1,13 +1,30 @@
-# Node Typescript Template
+# rollup-plugin-entry-banner
 
-> a project template for Node Typescript development
+## Introduction
+A simple Rollup plugin to prepend content to entry chunk
 
-### Features
+As follows:
 
-- [ESlint](https://github.com/eslint/eslint)、[prettier](https://github.com/prettier/prettier)
-- [ts-node-dev](https://github.com/wclr/ts-node-dev)
-- [commitlint](https://github.com/conventional-changelog/commitlint)、[lint-staged](https://github.com/okonet/lint-staged)、[husky](https://github.com/typicode/husky)
+![screenshots](screenshots/entry_log.png)
+## Usage
 
-### About Docs
+Install the plugin
+> npm install --save-dev rollup-plugin-banner
 
-- [tsconfig docs help](https://www.typescriptlang.org/tsconfig)
+
+Add it to your rollup configuration:
+
+```js
+import entryBanner from 'rollup-plugin-entry-banner';
+// const { bannerEntry } = require('rollup-plugin-entry-banner'); /* use commonjs */
+export default {
+  plugins: [
+    entryBanner()
+  ]
+}
+
+```
+
+## Options
+
+TODO
