@@ -74,7 +74,7 @@ const createBanner = () => {
   return ';' + banner.join(';') + ';';
 };
 
-export default function bannerEntry(): Partial<Plugin> {
+export default function bannerEntry(): Plugin {
   return {
     name: 'banner-entry',
     renderChunk(code, chunk) {
