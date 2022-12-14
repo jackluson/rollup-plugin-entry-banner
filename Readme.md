@@ -22,9 +22,18 @@ export default {
     entryBanner()
   ]
 }
-
 ```
-
+Note: it can also be used in  [Vite](https://github.com/vitejs/vite).
 ## Options
 
-TODO
+
+| name             |        type        | required | default                                             |                       description |
+| :--------------- | :----------------: | :------: | :-------------------------------------------------- | ----------------------------------------------: |
+| packageJsonDir   |      string     |  false   | `process.cwd()` |                    the directory path of The `package.json` file |
+| preset    |       boolean       |  false   | true                                                  |         whether apply the preset of the banner style (It includes the log style shown in the above picture. ) |
+| renderBanner    |       function       |  false   | undefined                                                  |        customize the output banner content |
+
+
+## Other
+
+- [console_output_with_css](https://developer.chrome.com/docs/devtools/console/api/#styling_console_output_with_css)

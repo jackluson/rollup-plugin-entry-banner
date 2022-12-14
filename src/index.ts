@@ -21,8 +21,17 @@ type ConsoleItemParam = {
 const cwd = process.cwd();
 
 export type BannerEntryOptions = {
+  /**
+   * the directory path of The `package.json` file
+   */
   packageJsonDir?: string;
+  /**
+   *  whether apply the preset of the banner style
+   */
   preset?: boolean;
+  /**
+   * customize the output banner content
+   */
   renderBanner?: (bannerStr: string) => string;
 };
 
@@ -35,7 +44,6 @@ const createBanner = (options?: BannerEntryOptions) => {
     const packageJson = require(packageJsonPath);
     const datetime = new Date();
     const buildTime = datetime.toLocaleDateString() + ' ' + datetime.toLocaleTimeString();
-    // const commitId = child_process.execSync('git rev-parse --short HEAD').toString().trim();
     const consoleList: ConsoleItemParam[] = [
       {
         label: 'Name',
@@ -55,11 +63,6 @@ const createBanner = (options?: BannerEntryOptions) => {
         label: 'Built at',
         value: buildTime,
       },
-      // {
-      //   label: 'CommitId',
-      //   valueBgColor: '#fff',
-      //   value: 'https://gitlab.realibox.cn/designhub/iview-web/-/commit/' + commitId,
-      // },
     ];
     const formatBannerParams = (params: ConsoleItemParam[]): ConsoleItemParam[] =>
       params.map((item) => ({
