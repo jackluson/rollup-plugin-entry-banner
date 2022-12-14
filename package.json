@@ -36,6 +36,9 @@
     "test": "jest --no-cache --coverage -u",
     "run:build": "node dist/index.js",
     "precommit": "lint-staged -q",
+    "patch": "npm version patch",
+    "prepatch": "git stash",
+    "postversion": "git push && git push --follow-tags && git stash pop",
     "prepare": "husky install"
   },
   "dependencies": {
