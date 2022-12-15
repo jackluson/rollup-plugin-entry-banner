@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rollup-plugin-entry-banner should match snapshot 1`] = `
+";console.info("%c Name: %c rollup-plugin-entry-banner ", "background:#606060; padding: 1px; border-radius: 3px 0 0 3px; color: #fff", "background:#42c02e; padding: #1px; border-radius: 0 3px 3px 0; color: #fff");console.info("%c Version: %c 1.0.1 ", "background:#35495e; padding: 1px; border-radius: 3px 0 0 3px; color: #fff", "background:#41b883; padding: #1px; border-radius: 0 3px 3px 0; color: #fff");console.info("%c Node Version: %c v16.15.1 ", "background:#35495e; padding: 1px; border-radius: 3px 0 0 3px; color: #fff", "background:#41b883; padding: #1px; border-radius: 0 3px 3px 0; color: #fff");console.info("%c Built at: %c 2022/12/15 19:18:06 ", "background:#35495e; padding: 1px; border-radius: 3px 0 0 3px; color: #fff", "background:#41b883; padding: #1px; border-radius: 0 3px 3px 0; color: #fff");'use strict';
+
+function testEntryBanner(){}
+
+module.exports = testEntryBanner;
+"
+`;
