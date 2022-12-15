@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-entry-banner",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "jackluson <luxuemin2108@gmail.com>",
   "description": "A simple rollup plugin to prepend content to entry chunk",
   "keywords": [
