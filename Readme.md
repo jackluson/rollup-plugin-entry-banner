@@ -1,10 +1,10 @@
 # rollup-plugin-entry-banner
 
 
-[![npm version](https://badge.fury.io/js/rollup-plugin-entry-banner.svg)](https://www.npmjs.com/package/rollup-plugin-entry-banner)
+[![npm version](https://img.shields.io/npm/v/rollup-plugin-entry-banner.svg)](https://www.npmjs.com/package/rollup-plugin-entry-banner)
 ![NPM Downloads](https://badgen.net/npm/dt/rollup-plugin-entry-banner)
 [![Publish to NPM](https://github.com/jackluson/rollup-plugin-entry-banner/actions/workflows/publish.yml/badge.svg)](https://github.com/jackluson/rollup-plugin-entry-banner/actions/workflows/publish.yml)
-[![codecov](https://codecov.io/gh/jackluson/rollup-plugin-entry-banner/branch/main/graph/badge.svg)](https://codecov.io/gh/jackluson/rollup-plugin-entry-banner)
+[![codecov](https://codecov.io/gh/jackluson/rollup-plugin-entry-banner/branch/master/graph/badge.svg?token=KWJ4KGM1SA)](https://codecov.io/gh/jackluson/rollup-plugin-entry-banner)
 [![MIT](https://img.shields.io/github/license/jackluson/rollup-plugin-entry-banner?style=plastic)](https://github.com/jackluson/rollup-plugin-entry-banner/blob/main/LICENSE)
 ## Introduction
 A simple Rollup plugin to prepend content to entry chunk
