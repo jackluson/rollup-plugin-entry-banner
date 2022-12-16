@@ -3,7 +3,7 @@
 
 [![npm version](https://badge.fury.io/js/rollup-plugin-entry-banner.svg)](https://www.npmjs.com/package/rollup-plugin-entry-banner)
 ![NPM Downloads](https://badgen.net/npm/dt/rollup-plugin-entry-banner)
-[![Build Status](https://travis-ci.com/jackluson/rollup-plugin-entry-banner.svg?branch=main)](https://travis-ci.com/jackluson/rollup-plugin-entry-banner)
+[![Publish to NPM](https://github.com/jackluson/rollup-plugin-entry-banner/actions/workflows/publish.yml/badge.svg)](https://github.com/jackluson/rollup-plugin-entry-banner/actions/workflows/publish.yml)
 [![codecov](https://codecov.io/gh/jackluson/rollup-plugin-entry-banner/branch/main/graph/badge.svg)](https://codecov.io/gh/jackluson/rollup-plugin-entry-banner)
 [![MIT](https://img.shields.io/github/license/jackluson/rollup-plugin-entry-banner?style=plastic)](https://github.com/jackluson/rollup-plugin-entry-banner/blob/main/LICENSE)
 ## Introduction

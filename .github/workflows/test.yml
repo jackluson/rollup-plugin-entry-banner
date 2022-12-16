@@ -1,0 +1,19 @@
+---
+name: Test
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Setup Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16
+          registry-url: https://registry.npmjs.org/
+      - uses: pnpm/action-setup@v2
+      - name: Run tests and collect coverage
+        run: npm run test
+      - name: Upload coverage reports to Codecov with GitHub Action
+        uses: codecov/codecov-action@v2
